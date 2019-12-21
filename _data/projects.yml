@@ -1,0 +1,87 @@
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'.
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'.
+    url: https://github.com/gohome0001/Captit # Full URL
+    image: "captit.png" # path: assets/project/
+    date: 2017.11.10 - 2017.12.05
+    title: Captit
+    summary: Network packet capture & analysis project
+    description:
+      대덕SW마이스터고등학교 전공동아리 <code class="highlighter-rouge">H@CK</code>에서 진행한 네트워크 프로젝트로,
+      Wireshark를 모방한 네트워크 패킷을 캡처하고 분석하는 툴을 구현하였습니다. 위의 이미지와 같이 라이브 캡처링을 통해
+      가져온 패킷들의 출발지/목적지 주소, 프로토콜 종류를 확인할 수 있습니다.
+      <br/>
+      저는 WinAPI를 이용하여 서브 UI와 라이브 캡처링 기능 실행 시 네트워크 인터페이스 옵션 팝업 구현을 담당하였습니다.
+    contents:
+      - title: 사용 기술
+        image:
+        description: <li>Winpcap</li>
+          <li>WinAPI</li>
+      - title: 서브 UI 구현
+        image: captit1.png
+        description: 라이브 캡처링 기능을 실행하고 나면 메인 UI에 캡처한 패킷들의 목록이 표시되는데, 각 패킷을 클릭하면
+          서브 UI에서 선택한 패킷의 필드와 요약 정보를 확인할 수 있습니다.
+      - title: 네트워크 인터페이스 옵션 팝업 구현
+        image: captit2.png
+        description: 메인 UI 상단의 Option 메뉴에서 캡처할 네트워크 인터페이스를 선택할 수 있습니다. (Wifi, VPN, VMware 등)
+          Premiscuous mode, Moniter mode 체크 메뉴에서는 옵션의 활성화 여부를 확인합니다.
+
+- project:
+    print: True
+    modal: True
+    url: https://github.com/chinzilla-and-the-children/MIXXXO
+    image: "mixxxo.png"
+    date: 2019.06.12 - 2019.06.21
+    title: MIXXXO
+    summary: Ransomware Jigsaw Decrypting Tool
+    description:
+      대덕SW마이스터고등학교 전공동아리 <code class="highlighter-rouge">FlosVia</code>에서 진행한 정보보안 프로젝트로,
+      Jigsaw 랜섬웨어가 파일을 암호화하는 과정에 대해 알아보고, 암호화된 파일을 원상태로
+      복호화하는 응용프로그램을 제작하였습니다.
+      <br/>
+      저는 Python Tkinter 모듈과 WinDLL을 사용하여 응용프로그램의 UI 구현을 담당하였습니다.
+    contents:
+      - title: 사용 기술
+        image:
+        description: <li>Tkinter</li>
+          <li>WinDLL</li>
+          <li>OpenSSL</li>
+          <li>WinAPI</li>
+      - title: 동작 방법
+        image: mixxxo1.png
+        description:
+          사용자가 선택한 폴더 경로를 불러와 <code class="highlighter-rouge">Find_load_all</code> 함수에게
+          인자로 넘겨줍니다. 이때 경로의 <code class="highlighter-rouge">/</code>를 <code class="highlighter-rouge">\\</code>로
+          바꾼 후 <code class="highlighter-rouge">c.c_char_p(path)</code>를 사용하여 형식에 맞게 바꾸어줍니다.
+          여기서 매개변수 path는 string이 아닌 bytes여야 합니다.
+      - title:
+        image: mixxxo2.png
+        description:
+          그 다음, 폴더 내의 <code class="highlighter-rouge">.fun</code> 확장자를 가진 암호화된 파일들의 목록을 저장하기 위해
+          <code class="highlighter-rouge">os.execl</code>을 사용하여 다른 python 실행 파일로 프로그램을 재실행합니다.
+          복호화 버튼을 누르면 파일 이름 목록에서 한 줄씩 파일 이름을 읽어 복호화 함수에게 인자로 넘겨주고 복호화를 실행합니다.
+
+- project:
+    print: True
+    modal: True
+    url: https://github.com/FLOSVIA/web_project
+    image: "fvwp.png"
+    date: 2018.09.06 - 2018.11.25
+    title: 우리 집에 왜 왔니
+    summary: Web Hacking Training Project
+    description:
+      대덕SW마이스터고등학교 전공동아리 <code class="highlighter-rouge">FlosVia</code>에서 진행한 웹 해킹 프로젝트로,
+      간단한 동아리 자체 웹 페이지를 제작하고 웹 취약점 진단을 통한 웹 해킹에 대한 이해를 목표로 하였습니다.
+    contents:
+      - title: Feature
+        image: fvwp1.png
+        description:
+          동아리 구성원들이 공지사항을 웹페이지에서 확인할 수 있고, 투표 기능을 넣어 의견을 모아야 할 때 사용할 수 있도록 했습니다.
+          취약점 진단 시에는 OWASP ZAP과 같은 자동 진단 도구와 Proxy, Burp Suite Scanner등 수동 진단 도구를 모두 사용했습니다.
+          이때 프레임워크를 사용하지 않고, Vanilla HTML, CSS만으로 페이지를 구현하였습니다.
+      - title: 담당 역할
+        image: fvwp2.png
+        description:
+          프로젝트의 전반적인 디자인을 담당하였습니다. 웹 페이지의 구조와 기능을 명세하여 기능 구현 담당들에게 전달하고,
+          Front End 디자인을 맡아 작업하였습니다. 부가적으로 웹 페이지에 사용되는 아이콘과 동아리 로고 제작 등 asset 제작 또한
+          전담하였습니다.

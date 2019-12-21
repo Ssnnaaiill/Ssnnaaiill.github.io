@@ -1,0 +1,55 @@
+# Site Settings
+baseurl: ""
+url: "https://ssnnaaiill.github.io"
+
+# Blog Settings
+theme_settings:
+  title: snail.dev
+  favicon: assets/favicon.ico
+
+  # Profile Settings
+  profile:
+    image: assets/img/profile.png
+    username: Yeonseo Jung
+    description: 풀스택 개발자를 목표로 하는 주니어 웹 프론트엔드 개발자입니다. 새로운 기술에 관심이 많습니다.
+    experience:
+      - start: 2017-03-02
+        end:
+        experience: 대덕소프트웨어마이스터고등학교 재학
+    skills:
+      - skill: HTML5 & CSS
+        value: 80 # Percent value
+      - skill: Javascript
+        value: 75
+      - skill: Python & Django
+        value: 65
+      - skill: Vue
+        value: 85
+
+  # Icons
+  icons:
+    email: "newdk3025@gmail.com" # Full email address, e.g. "sample@google.com"
+    linkedin: # Full URL
+    github: Ssnnaaiill
+    gitlab:
+    bitbucket:
+    google_plus:
+    twitter:
+    youtube:
+    facebook:
+    instagram:
+
+  # Disqus
+  disqus_shortname:
+
+# Pagination
+paginate: 5
+paginate_path: "blog/page:num"
+
+# Build Ssttings
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-paginate]
+bootstrap:
+  assets: true
