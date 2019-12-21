@@ -1,6 +1,7 @@
 # Site Settings
 baseurl: ""
-url: "https://ssnnaaiill.github.io"
+url: "https://ssnnaaiill.github.io/"
+remote_theme: naye0ng/Grape-Theme
 
 # Blog Settings
 theme_settings:
