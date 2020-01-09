@@ -19,18 +19,20 @@
           <li>WinAPI</li>
       - title: 서브 UI 구현
         image: captit1.png
-        description: 라이브 캡처링 기능을 실행하고 나면 메인 UI에 캡처한 패킷들의 목록이 표시되는데, 각 패킷을 클릭하면
+        description:
+          라이브 캡처링 기능을 실행하고 나면 메인 UI에 캡처한 패킷들의 목록이 표시되는데, 각 패킷을 클릭하면
           서브 UI에서 선택한 패킷의 필드와 요약 정보를 확인할 수 있습니다.
       - title: 네트워크 인터페이스 옵션 팝업 구현
         image: captit2.png
-        description: 메인 UI 상단의 Option 메뉴에서 캡처할 네트워크 인터페이스를 선택할 수 있습니다. (Wifi, VPN, VMware 등)
+        description:
+          메인 UI 상단의 Option 메뉴에서 캡처할 네트워크 인터페이스를 선택할 수 있습니다. (Wifi, VPN, VMware 등)
           Premiscuous mode, Moniter mode 체크 메뉴에서는 옵션의 활성화 여부를 확인합니다.
 
 - project:
     print: True
     modal: True
     url: https://github.com/chinzilla-and-the-children/MIXXXO
-    image: "mixxxo.png"
+    image: mixxxo.png
     date: 2019.06.12 - 2019.06.21
     title: MIXXXO
     summary: Ransomware Jigsaw Decrypting Tool
