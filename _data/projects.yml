@@ -4,7 +4,7 @@
     url: https://github.com/gohome0001/Captit # Full URL
     image: "captit.png" # path: assets/project/
     date: 2017.11.10 - 2017.12.05
-    title: Captit
+    title: 🧾 Captit
     summary: Network packet capture & analysis project
     description:
       대덕SW마이스터고등학교 전공동아리 <code class="highlighter-rouge">H@CK</code>에서 진행한 네트워크 프로젝트로,
@@ -13,7 +13,7 @@
       <br/>
       저는 WinAPI를 이용하여 서브 UI와 라이브 캡처링 기능 실행 시 네트워크 인터페이스 옵션 팝업 구현을 담당하였습니다.
     contents:
-      - title: 사용 기술
+      - title: 📚 Stack
         image:
         description: <li>Winpcap</li>
           <li>WinAPI</li>
@@ -32,7 +32,7 @@
     print: True
     modal: True
     url: https://github.com/chinzilla-and-the-children/MIXXXO
-    image: mixxxo.png
+    image: "mixxxo.png"
     date: 2019.06.12 - 2019.06.21
     title: MIXXXO
     summary: Ransomware Jigsaw Decrypting Tool
@@ -43,21 +43,21 @@
       <br/>
       저는 Python Tkinter 모듈과 WinDLL을 사용하여 응용프로그램의 UI 구현을 담당하였습니다.
     contents:
-      - title: 사용 기술
+      - title: 📚 Stack
         image:
         description: <li>Tkinter</li>
           <li>WinDLL</li>
           <li>OpenSSL</li>
           <li>WinAPI</li>
       - title: 동작 방법
-        image: mixxxo1.png
+        image: mixxxo1.PNG
         description:
           사용자가 선택한 폴더 경로를 불러와 <code class="highlighter-rouge">Find_load_all</code> 함수에게
           인자로 넘겨줍니다. 이때 경로의 <code class="highlighter-rouge">/</code>를 <code class="highlighter-rouge">\\</code>로
           바꾼 후 <code class="highlighter-rouge">c.c_char_p(path)</code>를 사용하여 형식에 맞게 바꾸어줍니다.
           여기서 매개변수 path는 string이 아닌 bytes여야 합니다.
       - title:
-        image: mixxxo2.png
+        image: mixxxo2.PNG
         description:
           그 다음, 폴더 내의 <code class="highlighter-rouge">.fun</code> 확장자를 가진 암호화된 파일들의 목록을 저장하기 위해
           <code class="highlighter-rouge">os.execl</code>을 사용하여 다른 python 실행 파일로 프로그램을 재실행합니다.
@@ -75,6 +75,11 @@
       대덕SW마이스터고등학교 전공동아리 <code class="highlighter-rouge">FlosVia</code>에서 진행한 웹 해킹 프로젝트로,
       간단한 동아리 자체 웹 페이지를 제작하고 웹 취약점 진단을 통한 웹 해킹에 대한 이해를 목표로 하였습니다.
     contents:
+      - title: 📚 Stack
+        image:
+        description: <li>HTML + CSS</li>
+          <li>PHP</li>
+          <li>Javascript</li>
       - title: Feature
         image: fvwp1.png
         description:
@@ -82,8 +87,69 @@
           취약점 진단 시에는 OWASP ZAP과 같은 자동 진단 도구와 Proxy, Burp Suite Scanner등 수동 진단 도구를 모두 사용했습니다.
           이때 프레임워크를 사용하지 않고, Vanilla HTML, CSS만으로 페이지를 구현하였습니다.
       - title: 담당 역할
-        image: fvwp2.png
+        image: fvwp1.png
         description:
           프로젝트의 전반적인 디자인을 담당하였습니다. 웹 페이지의 구조와 기능을 명세하여 기능 구현 담당들에게 전달하고,
           Front End 디자인을 맡아 작업하였습니다. 부가적으로 웹 페이지에 사용되는 아이콘과 동아리 로고 제작 등 asset 제작 또한
           전담하였습니다.
+
+- project:
+    print: True
+    modal: True
+    url:
+    image:
+    date: 2018.09.06 - 2018.11.25
+    title: 법률사무소 홈페이지 제작
+    summary:
+    description: <a href="http://damon-lawyer-test.surge.sh/">변호사 법률사무소 홈페이지</a>를 사용자 요청에 따라 제작하였습니다.
+    contents:
+      - title: 📚 Stack
+        image:
+        description: <li>HTML + CSS</li>0
+          <li>PHP</li>
+          <li>Javascript</li>
+      - title: 담당 역할
+        image: 
+        description: 카카오 API를 활용하여 오시는 길 페이지를 구성하였습니다. 홈페이지의 메인 I
+
+- project:
+    print: True
+    modal: True
+    url:
+    image:
+    date: 2018.09.06 - 2018.11.25
+    title: 온라인 수산물 데이터 분석 시각화
+    summary:
+    description: 2016년부터 2019년까지 100여종의 수산물 품목의
+    contents:
+      - title: 담당 역할
+        image: 
+        description:
+
+- project:
+    print: True
+    modal: True
+    url:
+    image:
+    date: 2018.09.06 - 2018.11.25
+    title: 약용 생물자원 활용 데이터 수집 모니터링 및 분석 플랫폼 제작
+    summary:
+    description:
+    contents:
+      - title: 담당 역할
+        image: fvwp2.png
+        description: 카카오 API를 활용하여 오시는 길 페이지를 구성하였습니다.
+
+- project:
+    print: True
+    modal: True
+    url:
+    image:
+    date: 2018.09.06 - 2018.11.25
+    title: 의상 객체 및 브랜드 탐지
+    summary:
+    description:
+    contents:
+      - title: 담당 역할
+        image: fvwp2.png
+        description: 카카오 API를 활용하여 오시는 길 페이지를 구성하였습니다.
