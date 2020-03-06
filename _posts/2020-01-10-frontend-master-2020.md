@@ -2,7 +2,7 @@
 layout: post
 title: 2020 프론트엔드 마스터가 되기 위한 9가지 챌린지 도전기
 subtitle: 2020년 올해는 뭐라도 해보자
-tags: [Github]
+tags: [Frontend, Javascript]
 author: Yeonseo Jung
 comments: False
 ---
