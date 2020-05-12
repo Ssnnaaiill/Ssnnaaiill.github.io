@@ -1,7 +1,7 @@
 ---
 layout: post
-title: GraphQL로 API 만들기 1
-subtitle: REST API 졸업하기 / GraphQL로 해결할 수 있는 문제점들
+title: GraphQL에서 해결할 수 있는 REST에서의 문제점들
+subtitle: GraphQL로 API 만들기
 tags: [API, GraphQL, Backend]
 author: Yeonseo Jung
 comments: False
@@ -13,7 +13,6 @@ comments: False
 
 GraphQL로 REST API에서 발생할 수 있는 문제들을 간편하게 처리할 수 있다고 합니다.
 
-
 ## Over-fetching
 
 API에서 특정 데이터를 불러오고 싶을 때,
@@ -21,12 +20,12 @@ API에서 특정 데이터를 불러오고 싶을 때,
 ```js
 axios.get("/api").then(res => { ... });
 ```
+
 다음과 같이 `GET` 요청을 하기 마련입니다.
 
 하지만 api에서 우리가 원하는 데이터만 골라서 제공하지 않고 다른 정보들까지 포함해서 response하는 경우도 있습니다. 사용하지 않을 영역까지 요청하게 된다는 것이지요. 효율적이지 못하고 어플리케이션이 무거워지게 만드는 요인 중 하나입니다.
 
 이렇게 서버에서 불필요한 정보들까지 요청받는 것을 `Over-fetching`이라고 합니다.
-
 
 ## Under-fetching
 
@@ -38,7 +37,6 @@ axios.get("/api").then(res => { ... });
 - 속도가 느려지는 건 알지만, 원하는 기능을 구현하기 위해서는 어쩔 수 없는 과정이잖아?
 
 라고 생각했는데요, GraphQL을 사용하면 Over-fetching, Under-fetching을 겪을 필요 없이 한 번의 요청으로 개발자가 원하는 정보만을 쏙쏙 골라서 response받을 수 있다고 합니다.
-
 
 ## GraphQL에서 필요한 정보만 골라오기
 
@@ -65,28 +63,29 @@ query {
   }
 }
 ```
+
 쿼리는 GraphQL 언어로 구성되어 있지요.
 그리고 백엔드에서 response한 Object는 다음과 같은 형태를 띕니다.
 
 ```json
 {
-  feed: [
+  "feed": [
     {
-      comments: 3,
-      likes: 10
+      "comments": 3,
+      "likes": 10
     }
   ],
-  notifications: [
+  "notifications": [
     {
-      isRead: true
+      "isRead": true
     },
     {
-      isRead: false
+      "isRead": false
     }
   ],
-  user: {
-    username: "Yeonseo Jung",
-    profilePic: "snail.png"
+  "user": {
+    "username": "Yeonseo Jung",
+    "profilePic": "snail.png"
   }
 }
 ```
