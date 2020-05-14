@@ -1,7 +1,7 @@
 ---
 layout: post
-title:
-subtitle: Safari 13.1에서 달라진 것들
+title: Safari 13.1에서 달라진 것들
+subtitle: 새롭게 추가된 사파리의 개인 정보 보호 정책, 브라우저 성능 개선사항
 tags: [API, GraphQL, Backend]
 author: Yeonseo Jung
 comments: False
