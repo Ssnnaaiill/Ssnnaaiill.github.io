@@ -1,13 +1,21 @@
 ---
 layout: post
-title: 내가 티스토리 블로그를 관둔 이유
-subtitle: Github Page & Jekyll로 갈아타기
+current: post
+cover: assets/images/bus.jpg
+navigation: True
+title: 티스토리에서 깃헙 블로그로 갈아타기
+date: 2019-12-20
 tags: [Github]
+class: post-template
+subclass: "post"
 author: Yeonseo Jung
-comments: False
 ---
 
-작년부터 개발자로서의 포트폴리오를 구비해두는 것이 좋겠다는 생각에, 티스토리에 가입해서 블로그 [vallhalla-edition](https://vallhalla-edition.tistory.com)을 운영해왔습니다. 개발자로서의 블로그 개설은 처음인지라 어느 플랫폼이 적당한지 잘 모르기도 했고, 적당히 무난해 보이는 티스토리를 선택했습니다. 첫 블로그이기도 하고, 열심히 굴려보고 싶어서 한참 열심히 할 때에는 하루에 포스트 하나씩 올리는 등 나름 공들여서 운영한 전적이 있습니다.
+나에게 꼭 맞는 포트폴리오 블로그 플랫폼을 찾는 것은 초보 개발자들이 가장 많이 하는 고민 중 하나일 것입니다. 저 또한 같은 고민을 겪었고, 고등학생 때 개발자로서의 포트폴리오를 구비해두는 것이 좋겠다는 생각에 티스토리 블로그를 한동안 굴려본 적도 있습니다.
+
+> [vallhalla-edition](https://vallhalla-edition.tistory.com)
+
+개발자로서의 블로그 개설은 처음인지라 어느 플랫폼이 적당한지 잘 모르기도 했고, 적당히 무난해 보이는 티스토리를 선택했습니다. 첫 블로그이기도 하고, 열심히 굴려보고 싶어서 한참 열심히 할 때에는 하루에 포스트 하나씩 올리는 등 나름 공들여서 운영한 전적이 있습니다.
 
 <br>
 
@@ -69,7 +77,7 @@ console.log("hello world!");
 
 > 마크다운은 역시 최고야!
 
-Github Page는 레포지토리에 있는 웹 페이지의 내용을 무료로 보여줄 수 있는 정적 호스팅 서비스인데, 여기에 Jekyll 테마를 결합하여 멋진 블로그를 만들 수 있었습니다. 개인적으로 Github Page 블로그의 장점이라 느낀 점들입니다. 
+Github Page는 레포지토리에 있는 웹 페이지의 내용을 무료로 보여줄 수 있는 정적 호스팅 서비스인데, 여기에 Jekyll 테마를 결합하여 멋진 블로그를 만들 수 있었습니다. 개인적으로 Github Page 블로그의 장점이라 느낀 점들입니다.
 
 <br>
 - 마크다운으로 글을 작성하면 Jekyll이 자동으로 HTML 형식으로 변환한다.

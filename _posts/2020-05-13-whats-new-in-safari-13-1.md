@@ -1,17 +1,21 @@
 ---
 layout: post
+current: post
+cover: assets/images/safari-og.jpg
+navigation: True
 title: Safari 13.1에서 달라진 것들
-subtitle: 새롭게 추가된 사파리의 개인 정보 보호 정책, 브라우저 성능 개선사항
-tags:
+date: 2020-05-13
+tags: [Github]
+class: post-template
+subclass: "post"
 author: Yeonseo Jung
-comments: False
 ---
 
-![](https://developer.apple.com/news/images/og/safari-og.jpg)
+지난 4월, 애플에서 Safari 브라우저의 [최신 버전](https://webkit.org/blog/10247/new-webkit-features-in-safari-13-1/)인 Safari 13.1 (macOS, Catalina, iPadOS, iOS, watchOS)을 릴리스했습니다.
+
+애플의 플랫폼들에게 있어 다양한 개선사항이 부여되었는데, 이번에 발표된 최신 버전의 사파리는 사용자의 개인 정보 보호, 브라우저 성능 최적화 및 브라우저 사용 시 개발자 경험(Dx) 개선에 중점을 두었다고 합니다.
 
 > [New Webkit features in Safari 13.1](https://webkit.org/blog/10247/new-webkit-features-in-safari-13-1/)
-
-지난 4월, 애플에서 Safari 브라우저의 [최신 버전](https://webkit.org/blog/10247/new-webkit-features-in-safari-13-1/)인 Safari 13.1 (macOS, Catalina, iPadOS, iOS, watchOS)을 릴리스했습니다. 애플의 플랫폼들에게 있어 다양한 개선사항이 부여되었는데, 이번에 발표된 최신 버전의 사파리는 사용자의 개인 정보 보호, 브라우저 성능 최적화 및 브라우저 사용 시 개발자 경험(Dx) 개선에 중점을 두었다고 합니다.
 
 주요 업데이트 사항은 다음과 같습니다.
 

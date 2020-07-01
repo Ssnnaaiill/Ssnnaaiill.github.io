@@ -1,15 +1,17 @@
 ---
 layout: post
+current: post
+cover: assets/images/bus.jpg
+navigation: True
 title: GraphQL에서 해결할 수 있는 REST에서의 문제점들
-subtitle: GraphQL로 API 만들기
+date: 2020-01-02
 tags: [API, GraphQL, Backend]
-author: Yeonseo Jung
-comments: False
+class: post-template
+subclass: "post"
+author: Ssnnaaiill
 ---
 
-> 노마드코더 영상을 보면서 알게 된 내용들을 적어둡니다.
-
-백엔드 작업을 할 때에는 항상 REST API를 사용했는데, 선임분께서 GraphQL을 배워보면 엄청난 도움일 될 것이라고 조언해 주셔서 [노마드코더 유튜브](https://www.youtube.com/channel/UCUpJs89fSBXNolQGOYKn0YQ)에서 GraphQL로 영화 API를 만드는 영상을 찾아보게 되었습니다.
+백엔드 작업을 할 때에는 REST API를 사용했는데, 선임분께서 GraphQL을 배워보면 엄청난 도움일 될 것이라고 조언해 주셔서 [노마드코더 유튜브](https://www.youtube.com/channel/UCUpJs89fSBXNolQGOYKn0YQ)에서 GraphQL로 영화 API를 만드는 영상을 찾아보게 되었습니다.
 
 GraphQL로 REST API에서 발생할 수 있는 문제들을 간편하게 처리할 수 있다고 합니다.
 

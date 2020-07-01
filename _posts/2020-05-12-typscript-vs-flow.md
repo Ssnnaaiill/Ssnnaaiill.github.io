@@ -1,17 +1,18 @@
 ---
 layout: post
+current: post
+cover: assets/images/tsvsflow.png
+navigation: True
 title: TypeScipt vs Flow
-subtitle: Javascript 프로젝트에서 사용할 type extension 고르기
-tags: [flow, typescript]
-author: Yeonseo Jung
-comments: False
+date: 2020-05-12
+tags: [flow, typescript, getting-started]
+class: post-template
+subclass: "post"
+author: Ssnnaaiill
 ---
 
-## 개요
-
-![](https://miro.medium.com/max/3000/1*VAP896WLOAJNH8uspXsbTA.png)
-
-자바스크립트는 동적 타입 언어(Dynamically Typed Language)입니다. 사용자가 할당해주는 값에 따라 그 변수의 데이터 타입이 바뀌지요. 타입 제한은 딱히 없습니다. Type annotation을 해주는 내장 방식도 없습니다.
+자바스크립트는 동적 타입 언어(Dynamically Typed Language)입니다.
+사용자가 할당해주는 값에 따라 그 변수의 데이터 타입이 바뀌지요. 타입 제한은 딱히 없습니다. Type annotation을 해주는 내장 방식도 없습니다.
 
 그런 것을 구현하기 위해서는 우선 다른 언어로 프로그램을 작성한 후 다시 자바스크립트로 변환시켜주는 작업을 거쳐야 합니다. 이런 작업이 꽤나 번거롭기 때문에, 자바스크립트의 변수 타입을 체크해주고 제한해주는 프로그래밍 언어(Typed Extension)가 필요합니다.
 

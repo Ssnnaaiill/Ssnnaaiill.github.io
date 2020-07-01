@@ -1,18 +1,22 @@
 ---
 layout: post
+current: post
+cover: assets/images/bus.jpg
+navigation: True
 title: Vuetify에서 Jest 사용 시 초기 설정 셋업
-subtitle:
-tags: [Jest, Vue, Frontend, Javascript]
-author: Yeonseo Jung
-comments: False
+date: 2020-05-12
+tags: [Frontend, Javascript]
+class: post-template
+subclass: "post"
+author: Ssnnaaiill
 ---
 
-# 오류
-
-[Vuetify](https://vuetifyjs.com/)는 Vue 프로젝트 개발 시 자주 사용되는 UI 라이브러리입니다. Vue CLI로 Vuetify를 프로젝트에 추가한 후 Jest로 유닛 테스트를 하려 하면 아래와 같은 오류가 콘솔에 표시된다.
+[Vuetify](https://vuetifyjs.com/)는 Vue 프로젝트 개발 시 자주 사용되는 UI 라이브러리입니다. Vue CLI로 Vuetify를 프로젝트에 추가한 후 Jest로 유닛 테스트를 하려 하면 아래와 같은 오류가 콘솔에 표시될 때가 있습니다.
 
 ```js
-console.error node_modules/vue/dist.vue.runtime.common.js:602 [Vue warn]: Unknown custom element: <v-container> - did you register the component correctly? For recursive components, make sure to provide the "name" option.
+console.error node_modules/vue/dist.vue.runtime.common.js:602
+[Vue warn]: Unknown custom element: <v-container> - did you register the component correctly? For recursive components,
+make sure to provide the "name" option.
 
 found in
 
